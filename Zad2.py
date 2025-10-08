@@ -33,7 +33,7 @@ def operacje(x:list [float])->tuple[float,float,float]:
 
 
 zmien = pobierz()
-wynik=operacje("zmien")
+wynik=operacje(zmien)
 suma,ilosc,srednia = wynik
 print(f"Suma: {suma} Ilośc: {ilosc} Srednia: {srednia}")
  
